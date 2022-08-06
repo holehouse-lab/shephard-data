@@ -1,0 +1,7 @@
+human_proteome_af2_filtered.tsv filter=lfs diff=lfs merge=lfs -text
+human_proteome_clean.tsv filter=lfs diff=lfs merge=lfs -text
+shprd_domains_idrs.tsv filter=lfs diff=lfs merge=lfs -text
+shprd_domains_plaac_plds.tsv filter=lfs diff=lfs merge=lfs -text
+shprd_tracks_af2_solvation_score.tsv filter=lfs diff=lfs merge=lfs -text
+shprd_sites_ptms.tsv filter=lfs diff=lfs merge=lfs -text
+human_proteome_clean.fasta filter=lfs diff=lfs merge=lfs -text

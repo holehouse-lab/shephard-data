@@ -1,0 +1,2 @@
+shprd_domains_arabidopsis_idrs.tsv filter=lfs diff=lfs merge=lfs -text
+arabidopsis_clean.fasta filter=lfs diff=lfs merge=lfs -text
