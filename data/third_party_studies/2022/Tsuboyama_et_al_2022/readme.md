@@ -13,7 +13,7 @@ This notebook provides the code for generating those annotations from the raw `.
 
 ## About
 ### Summary of data
-The Jupyter notebook in `/parsed_data` takes the `parse_K50_dG_Dataset1_Dataset2.csv` data from *Tsuboyama et al* bioRxiv 2022 and generates SHEPHARD-compliant track files for the following six datasets:
+The Jupyter notebook in `/parsed_data` takes the `parse_K50_dG_Dataset1_Dataset2.csv` data from *Tsuboyama et al* bioRxiv 2022 and generates SHEPHARD-compliant track files for the following five datasets:
 
 1. `deltaG_t` (ΔG calculated from median of posteriors of K50 trypsin (kcal/mol))
 
@@ -25,7 +25,7 @@ The Jupyter notebook in `/parsed_data` takes the `parse_K50_dG_Dataset1_Dataset2
 
 5. `K50C` (Median of posteriors of K50 chymotrypsin in log10 scale (μM))
 
-And for each of these the associated confidence intervals (CI) which are calculated as top 2.5 percentile minus top 97.5 percentile to give the range of the deltaG distributions (as calculated based on the K50s).
+And for each of these, the associated confidence intervals (CI) which are calculated as top 2.5 percentile minus top 97.5 percentile to give the range of the deltaG distributions (as calculated based on the K50s).
 
 If this sounds confusing, **please** read the paper before using the data !!!
 
