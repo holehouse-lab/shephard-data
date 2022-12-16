@@ -29,6 +29,8 @@ And for each of these the associated confidence intervals (CI) which are calcula
 
 If this sounds confusing, **please** read the paper before using the data !!!
 
+**NB:** - when data are missing, we assign the value to be 0, so it's probably prudent to bear this in mind when analyzing at scale!!
+
 
 The data here are large-scale mutagenesis data, whereby for many of the proteins, we have deep saturation mutagenesis (i.e. each residue mutated to every other residue). To keep things simple, the SHEPHARD files reflect data from constructs where a single point mutation was made, and a deltaG is assigned based on that mutation.
 
